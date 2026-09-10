@@ -1,0 +1,9 @@
+{
+  "name": "shoxrux-portfolio",
+  "version": "1.0.0",
+  "description": "Shoxrux Isroilovning portfolio sayti",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

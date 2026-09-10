@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shoxrux Isroilov — web dasturchi va treyder portfolio sayti">
+  <title>Shoxrux Isroilov | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">SHOXRUX ISROILOV<span>.</span></a>
+    <button class="menu-button" aria-label="Menyuni ochish" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">Men haqimda</a>
+      <a href="#skills">Ko‘nikmalar</a>
+      <a href="#projects">Loyihalar</a>
+      <a class="nav-contact" href="#contact">Bog‘lanish</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB DASTURCHI • TREYDER</p>
+        <h1>G‘oyalarni <span>ishlaydigan</span> raqamli mahsulotga aylantiraman.</h1>
+        <p class="hero-text">Men Shoxrux Isroilov. Zamonaviy veb-saytlar, Telegram botlar va savdo jarayonlari uchun qulay yechimlar yarataman.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Loyihalarim</a>
+          <a class="button secondary" href="#contact">Men bilan bog‘lanish</a>
+        </div>
+      </div>
+      <div class="market-card" aria-label="Faoliyat yo‘nalishlari">
+        <div class="market-top"><span>SHX / SKILLS</span><span class="live">FAOL</span></div>
+        <div class="chart" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="market-value">Web Development</div>
+        <div class="market-change">+ Trading analysis</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-number">01 / MEN HAQIMDA</p>
+      <div class="about-grid">
+        <h2>Kod va bozor tahlilini birlashtiraman.</h2>
+        <p>Foydalanuvchiga qulay interfeyslar va biznes jarayonlarini yengillashtiradigan dasturlar yaratishga qiziqaman. Bo‘sh vaqtimda moliya bozorlarini tahlil qilaman va bilimlarimni amaliy loyihalarda sinayman.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-number">02 / KO‘NIKMALAR</p>
+      <div class="skill-grid">
+        <article><b>01</b><h3>Frontend</h3><p>HTML, CSS va JavaScript orqali tezkor, zamonaviy va moslashuvchan sahifalar.</p></article>
+        <article><b>02</b><h3>Backend</h3><p>Node.js yordamida server, API va ma’lumotlar bilan ishlaydigan tizimlar.</p></article>
+        <article><b>03</b><h3>Trading</h3><p>Bozor tuzilmasi, risk boshqaruvi va texnik tahlil.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section-number">03 / LOYIHALAR</p>
+      <div class="project-list">
+        <article class="project"><span>01</span><div><h3>Tikuv hisob boti</h3><p>Node.js • Telegraf • MongoDB</p></div><b>↗</b></article>
+        <article class="project"><span>02</span><div><h3>Gold China Cargo</h3><p>Telegram bot • Buyurtma boshqaruvi</p></div><b>↗</b></article>
+        <article class="project"><span>03</span><div><h3>Trading kuzatuv paneli</h3><p>JavaScript • Bozor ma’lumotlari</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="section-number">04 / BOG‘LANISH</p>
+      <h2>Birgalikda loyiha boshlaymizmi?</h2>
+      <a class="button primary" href="https://t.me/SD_perfectionist" target="_blank" rel="noopener">Telegram orqali yozish</a>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Shoxrux Isroilov</span><a href="#home">Yuqoriga ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
