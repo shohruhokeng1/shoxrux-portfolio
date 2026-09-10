@@ -40,9 +40,24 @@ a {
   backdrop-filter: blur(14px);
 }
 .logo {
-  font-size: 1.15rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid var(--accent);
+}
+.logo-name > span {
+    color: var(--accent);
 }
 .logo span,
 h1 span,
